@@ -12,6 +12,13 @@
     font-family: 'Montserrat';
     src: url('POLICES/montserrat/Montserrat-Black.ttf');
 }
+
+@font-face
+{
+    font-family: 'Montserrat-extralight';
+    src: url('POLICES/montserrat/Montserrat-ExtraLight.ttf');
+}
+
 /*__________________________________fin_____________________________________*/
 
 /*Suppression des marges extérieures et intérieurs*/
@@ -143,7 +150,17 @@ header /*une couleur pour l'en-tête*/
     text-decoration: none;
 }
 
-
+#paragraphe_bloc_1_page_1
+{
+    font-size: 16px;
+    width: 700px;
+    text-align: center;
+    font-family: 'Montserrat-ExtraLight', sans-serif;
+    position: absolute;
+    top: 400px;
+    left: -10%;
+    color: white;
+}
 
 
 
