@@ -1,0 +1,218 @@
+/*définition des polices personnalisées*/
+
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('POLICES/roboto/Roboto-Thin.ttf') format('ttf');
+}
+
+
+@font-face
+{
+    font-family: 'Montserrat';
+    src: url('POLICES/montserrat/Montserrat-Black.ttf');
+}
+/*__________________________________fin_____________________________________*/
+
+/*Suppression des marges extérieures et intérieurs*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*une dimension au grand bloc*/
+#grand_bloc
+{
+
+    width: 100%;
+    background-color: black;
+}
+
+/*________________________________________Section en-tête_____________________________________________*/
+header /*une couleur pour l'en-tête*/
+{
+    background-color: #d92950;
+}
+
+/*Les éléments de l'en-tête en inline-block*/
+#partie_logo, #menu
+{
+    display: inline-block;
+}
+
+/*organisation du menu*/
+#menu /*alignement du texte à droite dans une boite de 740px de largeur pour créer de l'espace  avec le logo*/
+{
+    width: 740px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+#menu ul /*supression des puces*/
+{
+    list-style-type: none;
+}
+#menu li /*disposition sur la même ligne et espacement entre les liens*/
+{
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu a /*la taille du texte menu*/
+{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+/*_______________fin organisation_____________________*/
+
+
+/*positionnement du logo*/
+#logo /*redimensionnement*/
+{
+    width: 80px;
+    height: 50px;
+}
+
+#partie_logo /*marge intérieure*/
+{
+    padding: 10px 20px;
+}
+/*___________________________________________fin en-tête______________________________________________*/
+
+
+/*___________________________________________bloc_1_page_2____________________________________________*/
+
+#bloc_1_page_2
+{
+    height: 700px;
+    background: url('Ressources/hero-background.jpg');
+    background-position : center;
+    background-size: 100%;
+}
+
+#classe_1_bloc_1_page_1
+{
+    position: absolute;
+    left: 27%;
+    top: 28%;
+}
+#bloc_1_titre_page_1
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 580px;
+    font-weight: 900;
+    text-align:center;
+    font-size: 71.17px;
+    color: white;
+}
+#mot_en_jaune
+{
+    color: rgb(255, 230, 77);
+}
+
+
+#les_boutons
+{
+   display: inline-block;
+   position: absolute;
+   top: 310px;
+   left: 35px;
+}
+
+.boutton
+{
+    display: inline-block;
+    height: 25px;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    justify-content:center;
+   
+    color: #d92950;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*
+#Entete
+{
+    background-color: #d92950;
+    height: 12vh;
+    width: 100%;   
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+#logo
+{
+    
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#menu
+{
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 30px;
+}
+
+#menu ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bloc_1
+{
+    position: absolute;
+    top: 76px;
+    width: 100%;
+    height: 120%;
+    background-image: url('Ressources/hero-background.jpg');
+    background-position:center;
+    background-size: 100%;
+    z-index:auto;
+}
+
+#titre_dans_bloc_1
+{
+    
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+
+*/
