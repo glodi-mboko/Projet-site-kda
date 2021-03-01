@@ -182,9 +182,10 @@ header /*une couleur pour l'en-tête*/
 #classe_2_bloc_1_page_1
 {
     position: absolute;
-    top: 96%;
+    top: 105%;
     left: 0%;
     right: 0%;
+    height: 120px;
 }
 
 .logo_technologie
@@ -429,6 +430,35 @@ header /*une couleur pour l'en-tête*/
 /*___________________________________________fin block 4_________________________________________*/
 
 /*___________________________________________block 5_________________________________________*/
+
+#bloc_5_page_1
+{
+    background-color: #d92950;;
+}
+
+.image_client
+{
+    height: 405px;
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.logo_technologie_pour_client
+{
+    height: 10px;
+    width: 10px;
+}
+
+.technologie_pour_client
+{
+    background-color: #ee4a5a;
+}
+
+.client_bloc_5
+{
+
+}
 
 /*
 #Entete
