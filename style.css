@@ -15,8 +15,20 @@
 
 @font-face
 {
+    font-family: 'Montserrat-regular';
+    src: url('POLICES/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face
+{
     font-family: 'Montserrat-extralight';
     src: url('POLICES/montserrat/Montserrat-ExtraLight.ttf');
+}
+
+@font-face
+{
+    font-family: 'Montserrat-bold';
+    src: url('POLICES/montserrat/Montserrat-Bold.ttf');
 }
 
 /*__________________________________fin_____________________________________*/
@@ -34,6 +46,7 @@
 {
 
     width: 100%;
+    height: 100%;
     background-color: black;
 }
 
@@ -41,6 +54,9 @@
 header /*une couleur pour l'en-tête*/
 {
     background-color: #d92950;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 /*Les éléments de l'en-tête en inline-block*/
@@ -94,11 +110,11 @@ header /*une couleur pour l'en-tête*/
 /*___________________________________________fin en-tête______________________________________________*/
 
 
-/*___________________________________________bloc_1_page_2____________________________________________*/
+/*___________________________________________bloc_1_page_1____________________________________________*/
 
-#bloc_1_page_2
+#bloc_1_page_1
 {
-    height: 700px;
+    height: 780px;
     background: url('Ressources/hero-background.jpg');
     background-position : center;
     background-size: 100%;
@@ -160,10 +176,259 @@ header /*une couleur pour l'en-tête*/
     top: 400px;
     left: -10%;
     color: white;
+    font-weight: 800;
+}
+
+#classe_2_bloc_1_page_1
+{
+    position: absolute;
+    top: 96%;
+    left: 0%;
+    right: 0%;
+}
+
+.logo_technologie
+{
+    padding: 52px;
+    height: 45px;
+    width: 50px;
+    opacity: 0.5;
+}
+/*_______________________________________fin_bloc_1_page_1____________________________________________*/
+
+
+/*_______________________________________bloc_2_page_1____________________________________________*/
+
+#bloc_2_page_1
+{
+    height: 690px;
+    background-color :#f1f0f3;
+}
+
+#photo_1_classe_1_bloc_2
+{
+    height: 370px;
+    width: 485px;
+    border-radius: 20px;
+    position: relative;
+    top: 80px;
+    left: -60px;
+}
+
+#photo_2_classe_1_bloc_2
+{
+    height: 250px;
+    width: 325px;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    left: -285px;
+    z-index: auto;
+}
+
+#titre_classe_2_bloc_2_page_1
+{
+    color: #424345;
+    font-size: 40px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    position: relative;
+    top: -295px;
+    left: 550px;
+    width: 700px;
+}
+
+.illustration
+{
+    height: 90px;
+    width: 50px;
+    border-bottom: 2px solid #ea0000;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#illustration_1_bloc_2_page_1, #illustration_2_bloc_2_page_1, #illustration_3_bloc_2_page_1, #illustration_4_bloc_2_page_1
+{
+    font-size: 1.25rem;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #424345;
+    text-align: center;
+    width: 300px;
+}
+
+#illustration_1_bloc_2_page_1
+{
+    
+    position: relative;
+    top: -255px;
+    left: 580px;
+}
+
+#illustration_2_bloc_2_page_1
+{
+    position: relative;
+    top: -415px;
+    left: 945px;
+}
+
+#illustration_3_bloc_2_page_1
+{
+    
+    position: relative;
+    top: -400px;
+    left: 580px;
+}
+
+#illustration_4_bloc_2_page_1
+{
+    position: relative;
+    top: -584px;
+    left: 945px;
+}
+/*_______________________________________fin bloc 2___________________________________________________*/
+
+
+/*_______________________________________bloc_3_page_1____________________________________________*/
+
+#bloc_3_page_1
+{
+    height: 500px;
+    background-color: #d92950;
+}
+
+#titre_bloc_3_page_1
+{
+    font-size: 40px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 25%;
+    left: -1%;
 }
 
 
 
+#conteneur_partenaires
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1040px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    top: 35%;
+    left: 9%;
+
+}
+
+.logo_partenaire
+{
+    padding: 50px;
+    height: 30%;
+    width: 60%;
+}
+/*___________________________________________fin block 4_________________________________________*/
+
+#bloc_4_page_1
+{
+    background-color: #f1f0f3;
+    height: 670px;
+}
+
+#classe_1_bloc_4_page_1, #classe_2_bloc_4_page_1
+{
+    background-color: darkorchid;
+    width: 490px;
+    height: 250px;
+    padding-top: 50px;
+    padding-right : 35px;
+    padding-left : 35px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+}
+
+#classe_1_bloc_4_page_1
+{
+    border-top: 10px #ffe453 solid;
+    margin-right: 25px;
+}
+
+#classe_2_bloc_4_page_1
+{
+    border-top: 10px rgb(217, 41, 80) solid;
+    margin-right: 20px;
+}
+
+.titre_classe_bloc_4_page_1
+{
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: rgb(217, 41, 80);
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+}
+
+.paragraphe_classe_bloc_4_page_1
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family : 'Montserrat-regular', sans-serif;
+    color: rgb(24, 0, 39, 0.87);
+    margin-bottom: 35px;
+}
+
+#paragraphe_1_bloc_4_page_1
+{
+    align-items: center;
+}
+
+#paragraphe_2_bloc_4_page_1
+{
+    align-items: center;
+}
+
+.bouton_bloc_4_page_1
+{
+    display: inline-block;
+    height: 25px;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: #d92950;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    justify-content:center;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+#titre_bloc_4_page_1
+{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #392546;
+    width: 700px;
+    position: relative;
+    top: 20%;
+    left: 23%;
+}
+
+/*___________________________________________fin block 4_________________________________________*/
+
+/*___________________________________________block 5_________________________________________*/
 
 /*
 #Entete
