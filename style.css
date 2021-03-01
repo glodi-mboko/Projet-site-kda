@@ -114,7 +114,7 @@ header /*une couleur pour l'en-tête*/
 
 #bloc_1_page_1
 {
-    height: 850px;
+    height: 790px;
     background: url('Ressources/hero-background.jpg');
     background-position : center;
     background-size: 100%;
@@ -181,11 +181,11 @@ header /*une couleur pour l'en-tête*/
 
 #classe_2_bloc_1_page_1
 {
-    position: absolute;
-    top: 105%;
+    position: relative;
+    top: 75%;
     left: 0%;
     right: 0%;
-    height: 120px;
+    height: 100px;
 }
 
 .logo_technologie
@@ -194,6 +194,7 @@ header /*une couleur pour l'en-tête*/
     height: 45px;
     width: 50px;
     opacity: 0.5;
+
 }
 /*_______________________________________fin_bloc_1_page_1____________________________________________*/
 
@@ -330,12 +331,14 @@ header /*une couleur pour l'en-tête*/
     height: 30%;
     width: 60%;
 }
-/*___________________________________________fin block 4_________________________________________*/
+/*___________________________________________fin block 3_________________________________________*/
+
+/*___________________________________________block 4_________________________________________*/
 
 #bloc_4_page_1
 {
     background-color: #f1f0f3;
-    height: 670px;
+    height: 700px;
 }
 
 #classe_1_bloc_4_page_1, #classe_2_bloc_4_page_1
@@ -421,7 +424,7 @@ header /*une couleur pour l'en-tête*/
     font-weight: 700;
     font-family: 'Montserrat-Bold', sans-serif;
     color: #392546;
-    width: 700px;
+    width: 730px;
     position: relative;
     top: 20%;
     left: 23%;
