@@ -182,14 +182,16 @@ header /*une couleur pour l'en-tête*/
 #classe_2_bloc_1_page_1
 {
     position: relative;
-    top: 75%;
+    top: 80%;
     left: 0%;
     right: 0%;
-    height: 100px;
+    height: 10%;   
 }
 
 .logo_technologie
 {
+    position: relative;
+    top: -40%;
     padding: 52px;
     height: 45px;
     width: 50px;
@@ -424,7 +426,7 @@ header /*une couleur pour l'en-tête*/
     font-weight: 700;
     font-family: 'Montserrat-Bold', sans-serif;
     color: #392546;
-    width: 730px;
+    width: 70%;
     position: relative;
     top: 20%;
     left: 23%;
