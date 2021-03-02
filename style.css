@@ -438,15 +438,125 @@ header /*une couleur pour l'en-tête*/
 
 #bloc_5_page_1
 {
-    background-color: #d92950;;
+    background-color: #d92950;
+    height: 900px;
+}
+
+#conteneur_clients
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 23%;
+}
+
+#titre_bloc_5_page_1
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 12%;
+    left: 25%;
+    width: 800px;
 }
 
 .image_client
 {
     height: 405px;
-    width: 350px;
+    width: 325px;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.conteneur_client_logo
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#conteneur_logordc_bloc_5
+{
+    background-color: white;
+    height: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 85px;
+    position: relative;
+    left: 26.8%;    
+     
+}
+
+#intitule_logordc 
+{
+    position: relative;
+    top: -25%;
+    left:40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.2px;
+    font-weight: 700;
+    color: #d92950;
+}
+
+#conteneur_logotandem
+{
+    background-color: white;
+    height: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 100px;
+    position: relative;
+    left: 7.5%;  
+}
+
+#intitule_logosuisse
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.2px;
+    font-weight: 700;
+    color: #d92950;
+    position: relative;
+    top: -25%;
+    left: 30%;
+}
+
+#conteneur_logocompany
+{
+    background-color: white;
+    height: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 100px;
+    position: relative;
+    left: 14%; 
+}
+
+#intitule_logobelge
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11.2px;
+    font-weight: 700;
+    color: #d92950;
+    position: relative;
+    top: -25%;
+    left: 10%;
+}
+
+.client_bloc_5
+{
+    margin-right: 60px;
+    position: relative;
+    
+    left: 7%;
+
 }
 
 .logo_technologie_pour_client
@@ -458,78 +568,97 @@ header /*une couleur pour l'en-tête*/
 .technologie_pour_client
 {
     background-color: #ee4a5a;
+    height: 29px;
+    width: 325px;
 }
 
-.client_bloc_5
+.logo_client_bloc_5
 {
-
+    height: 20px;
+    width: 20px;
 }
 
-/*
-#Entete
+.paragraphe_bloc_5
 {
-    background-color: #d92950;
-    height: 12vh;
-    width: 100%;   
-    position: fixed;
-    z-index: 1;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
+    color: white;
 }
 
-
-
-#logo
-{
-    
-    display: inline-block;
-    position: absolute;
-    top: 15px;
-    left: 20px;
-}
-
-#menu
-{
-    display: inline-block;
-    position: absolute;
-    left: 800px;
-    top: 30px;
-}
-
-#menu ul
-{
-    list-style-type: none;
-}
-nav li
-{
-    display: inline-block;
-    margin-right: 40px;
-}
-
-#menu a
+.site_client
 {
     text-decoration: none;
+}
+
+.text_technologie_bloc_5, .site_client
+{
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 11.2px;
+    font-weight: 400;
     color: white;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 }
 
-#bloc_1
+.text_technologie_bloc_5
 {
-    position: absolute;
-    top: 76px;
-    width: 100%;
-    height: 120%;
-    background-image: url('Ressources/hero-background.jpg');
-    background-position:center;
-    background-size: 100%;
-    z-index:auto;
+    position: relative;
+    top: 17%;
 }
 
-#titre_dans_bloc_1
+/*_____________________________________________________*/
+#bloc_6_page_1
 {
+    background-color: white;
+    height: 900px;
+}
+
+#titre_bloc_6
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #424345;
+    position: relative;
+    top: 12%;
+    left: 60%;
+    width: 800px;
+}
+
+#bloc_hardskills
+{
+    display: inline-block;
+    height: 420px;
+    width: 600px;
+    background-color: #f1f0f3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     
-    position: absolute;
-    right: 30%;
-    top: 10%;
+    
 }
 
-*/
+#titre_hardskills
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    background-color: #ee4a5a;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.expertise
+{
+    height: 80px;
+    width: 40px;
+    margin-right: 100px;
+
+}
+#conteneur_expertise
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 350px;
+    word-wrap: break-word;
+}
