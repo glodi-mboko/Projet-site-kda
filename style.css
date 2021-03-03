@@ -609,7 +609,7 @@ header /*une couleur pour l'en-tête*/
 #bloc_6_page_1
 {
     background-color: white;
-    height: 900px;
+    height: 800px;
 }
 
 #titre_bloc_6
@@ -620,7 +620,7 @@ header /*une couleur pour l'en-tête*/
     color: #424345;
     position: relative;
     top: 12%;
-    left: 60%;
+    left: 37%;
     width: 800px;
 }
 
@@ -632,11 +632,12 @@ header /*une couleur pour l'en-tête*/
     background-color: #f1f0f3;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
-    
+    position: relative;
+    top: 7%;
+    left: 7%;
 }
 
-#titre_hardskills
+#titre_hardskills, #titre_softskills
 {
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 28px;
@@ -646,19 +647,263 @@ header /*une couleur pour l'en-tête*/
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+#titre_softskills
+{
+    background-color: #332040;
+}
 .expertise
 {
     height: 80px;
     width: 40px;
-    margin-right: 100px;
-
 }
 #conteneur_expertise
 {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chaque_expertise
+{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#bloc_softskills
+{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    width: 470px;
+    background-color: #f1f0f3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 19%;
+    left: 10%;
+}
+ol
+{
+    position: relative;
+    top: 10%;
+    left: 20%;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20.8px;
+    font-weight: 400;
+    line-height: 31.2px;
+    
+    width: 260px;
+}
+
+#conteneur_list
+{
+    background-color: #dfdee1;
+    height: 280px;
+    width: 380px;
+    position: relative;
+    top: 5%;
+    left: 9%;
+    border-radius: 5%;
+}
+
+/*____________________________________________*/
+
+#bloc_7_page_1
+{
+    background-color: #ae3b53;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titre_bloc_7
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 17%;
+}
+
+#conteneur_illustration_bloc_7
+{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 90vw;
+    position: relative;
+    top: 23%;
+}
+
+.zone_illustration
+{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image_illustration_bloc_7
+{
+    height: 40px;
+    width: 45px;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.flèche_illustration
+{
+    width: 30px;
+}
+
+#bloc_text_illustration_bloc_7
+{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    position: relative;
+    top: 26%;
+}
+
+.text_illustration_bloc_7
+{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20.8px;
+    font-weight: 700;
+    color: white;
+    width: 300px;
+    text-align: center;
+
+}
+
+#button_bloc_7
+{
+    height: 25px;
+    width: 230px;
+    padding: 20px;
+    background-color: #d94351;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    justify-content:center;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+}/*____________________________________________*/
+#bloc_8_page_1
+{
+    background-color: #f1f0f3;
+    display: flex;
+    flex-direction: row;
+    height: 140vh;
+    justify-content: center;
+}
+
+#sous_bloc_8_gauche
+{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 65%;
+    position: relative;
+    top: 15%;
+}
+
+#titre_bloc_8
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(66, 67, 69);
+}
+#texte_rouge
+{
+    color: #d92950;
+}
+
+#paragraphe_sous_bloc_gauche
+{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(66, 67, 69);
+    position: relative;
+    top: 10%;
+}
+
+#image_sous_bloc_gauche
+{
+    width: 43.5vw;
+    position: relative;
+    top: 15%;
+}
+
+#sous_bloc_8_droit
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 45vw;
+    height: 70%;
+    position: relative;
+    top: 15%;
+}
+
+.boite_bloc_gauche
+{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 230px;
+    border-radius: 10px;
+    padding-top: 10px;
     padding-left: 10px;
-    padding-right: 10px;
-    height: 350px;
-    word-wrap: break-word;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.icone_boite
+{
+    height: 50px;
+    width: 55px;
+}
+
+.titre_boite
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: rgb(66, 67, 69);
+}
+
+.paragraphe_boite
+{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(66, 67, 69);
+    position: relative;
+    top: 2%;
 }
