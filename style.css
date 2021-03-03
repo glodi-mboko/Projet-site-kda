@@ -219,6 +219,8 @@ header /*une couleur pour l'en-tête*/
     left: -60px;
 }
 
+
+
 #photo_2_classe_1_bloc_2
 {
     height: 250px;
@@ -906,4 +908,40 @@ ol
     color: rgb(66, 67, 69);
     position: relative;
     top: 2%;
+}
+/*__________________________________________________*/
+
+#bloc_9_page_1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    height: 60vh;
+}
+
+#conteneur_media
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 25%;
+    margin-top: 30px;
+}
+
+.medias
+{
+    height: 30px;
+    width: 80px;
+}
+
+#titre_bloc_9
+{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
 }
